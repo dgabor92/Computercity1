@@ -1,0 +1,87 @@
+/* =============================
+    GENERAL STYLES
+=============================*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1,
+h2,
+h3,
+ul,
+ol,
+p,
+img {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+header {
+  background: url("wallpaper.jpg") no-repeat 70% center/cover;
+  background-size: ;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  text-align: center;
+  color: #fff;
+}
+.headline {
+  font-family: "Caveat", cursive;
+  font-size: 180px;
+  margin-top: 300px;
+}
+
+.location {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+  margin-top: 30px;
+}
+.cim {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  margin-top: 15px;
+  padding: 50px;
+  text-shadow: rgba(143, 18, 18, 0.5);
+}
+.give {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+  margin-top: 30px;
+}
+body {
+  background-color: rgb(239, 232, 216);
+}
+footer {
+  padding: 15px;
+  background-color: rgb(1, 1, 1);
+}
+footer strong {
+  color: #fff;
+}
+.contact h2 {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+  margin-top: 30px;
+}
+.contact p {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  margin-top: 15px;
+  padding: px;
+  text-shadow: rgba(143, 18, 18, 0.5);
+}
