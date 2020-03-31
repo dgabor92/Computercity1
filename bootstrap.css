@@ -39,13 +39,33 @@ header {
   display: table;
   text-align: center;
   color: #fff;
+  opacity: 0.91;
 }
 .headline {
   font-family: "Caveat", cursive;
   font-size: 180px;
   margin-top: 300px;
 }
-
+.nyit {
+  font-size: ;
+}
+.days {
+  margin-top: 30px;
+}
+.szomb {
+  margin-top: 40px;
+}
+.vas {
+  margin-top: 40px;
+}
+.location::before {
+  content: "";
+  display: block;
+  background-color: #000;
+  height: 0.5rem;
+  width: 12.515625rem;
+  margin: 0.5rem auto;
+}
 .location {
   font-family: "Caveat", cursive;
   font-size: 80px;
@@ -54,9 +74,20 @@ header {
 .cim {
   font-family: "Caveat", cursive;
   font-size: 50px;
-  margin-top: 15px;
-  padding: 50px;
+  margin-top: ;
+  padding: 10px;
   text-shadow: rgba(143, 18, 18, 0.5);
+  text-align: center;
+}
+.cim::after {
+  display: block;
+  content: "";
+  background-color: #000;
+  height: 0.5rem;
+  width: 12.515625rem;
+  margin: 0.5rem auto;
+  padding: 0;
+  font-size: 0;
 }
 .give {
   font-family: "Caveat", cursive;
@@ -78,10 +109,20 @@ footer strong {
   font-size: 80px;
   margin-top: 30px;
 }
+
 .contact p {
   font-family: "Caveat", cursive;
   font-size: 50px;
   margin-top: 15px;
   padding: px;
   text-shadow: rgba(143, 18, 18, 0.5);
+}
+.box {
+  padding: 20px;
+  color: #555;
+  margin-top: 30px;
+}
+.terkep {
+  height: 540px;
+  width: 750px;
 }
