@@ -58,6 +58,17 @@ header {
 .vas {
   margin-top: 40px;
 }
+.hir {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+  margin-top: 30px;
+}
+.heer {
+  background: gray;
+  padding: 50px;
+  border-color: #000;
+  border: 1px solid #000;
+}
 .location::before {
   content: "";
   display: block;
