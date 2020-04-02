@@ -23,4 +23,8 @@ footer {
     background: rgb(1,1,1);
     color: #fff;
 }
-  
+  marquee {
+      background-color: gray;
+      padding: 50px;
+      font-size: 2rem;
+  }
