@@ -1,0 +1,26 @@
+html {
+    font-size: 1rem;
+  }
+  
+ 
+
+.cc-font {
+    font-family: "Caveat", cursive;;
+}
+header {
+    background: url("wallpaper.jpg") no-repeat 70% center/cover;
+    background-size: ;
+    height: 100vh;
+    width: 100vw;
+    display: table;
+    color: #fff;
+    opacity: 0.91;
+  }
+  h1 {
+      margin-top: 11rem;
+  }
+footer {
+    background: rgb(1,1,1);
+    color: #fff;
+}
+  
