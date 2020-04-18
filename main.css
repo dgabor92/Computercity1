@@ -28,4 +28,12 @@ marquee {
 }
 .hirfolyam {
   color: red;
+  font-weight: 900;
+  font-size: 1rem;
+}
+body {
+  background: linear-gradient(#b8b5b5, #b5bfeb);
+}
+.hir {
+  font-size: 3rem;
 }
